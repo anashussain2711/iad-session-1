@@ -1344,7 +1344,7 @@ body {
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-2,
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-3,
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-4 {
-    height: fit-content;
+    /* height: fit-content; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1435,8 +1435,8 @@ body {
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-2 .item-content .flow-chart,
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-3 .item-content .flow-chart,
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-4 .item-content .flow-chart {
-    width: 95%;
-    height: 80%
+    /* width: 95%;
+    height: 80% */
 }
 
 .instructor-activity .instructor-activity-wrapper .inner_container .main-grid .item-1 .item-content .flow-chart img,
