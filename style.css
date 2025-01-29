@@ -103,7 +103,11 @@ header .header-container .toggle-btn .line {
     background: white;
     transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
 }
-
+@media (max-width: 767px) {
+    .toggle-btn{
+        display: none;
+    }
+}
 .menu {
     position: absolute;
     transform: translateY(-100vh);
@@ -165,6 +169,11 @@ header .header-container .toggle-btn .line {
     }
 }
 
+@media (max-width: 767px) {
+    .menu, .toggle-btn{
+        display: none;
+    }
+}
 .banner {
     height: 100vh;
     background-size: cover;
