@@ -107,6 +107,9 @@ header .header-container .toggle-btn .line {
     .toggle-btn{
         display: none;
     }
+    .header-container{
+        justify-content: center;
+    }
 }
 .menu {
     position: absolute;
