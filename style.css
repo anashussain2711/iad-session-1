@@ -74,7 +74,12 @@ header .header-container {
     align-items: center;
     position: relative;
 }
-
+@media (max-width: 767px) {
+    header .header-container {
+        justify-content: center;
+    }
+    
+}
 header .header-container .toggle-btn {
     display: flex;
     flex-direction: column;
@@ -107,9 +112,7 @@ header .header-container .toggle-btn .line {
     .toggle-btn{
         display: none;
     }
-    .header-container{
-        justify-content: center;
-    }
+
 }
 .menu {
     position: absolute;
