@@ -171,7 +171,7 @@ header .header-container .toggle-btn .line {
 
 @media (max-width: 767px) {
     .menu, .toggle-btn{
-        display: none;
+        display: none !important;
     }
 }
 .banner {
