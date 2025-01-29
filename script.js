@@ -60,9 +60,14 @@ $(document).ready(function () {
 
     });
 
-    $(".menu-links a").click(function () {
-        $(".menu").removeClass("active");
-        $("#toggle-btn").removeClass("active");
-        $("body").removeClass("overflow-hidden");
-    })
+    $(".menu-links a").click(function (e) {
+        const target = $(this).attr("href"); 
+        
+        // Allow default anchor behavior before closing menu
+        setTimeout(() => {
+            $(".menu").removeClass("active");
+            $("#toggle-btn").removeClass("active");
+            $("body").removeClass("overflow-hidden");
+        }, 500); // 300ms delay to ensure scrolling happens first
+    });
 });
